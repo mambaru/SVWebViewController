@@ -24,6 +24,16 @@
 
 @implementation SVModalWebViewController
 
+#pragma mark - Rotations
+
+- (BOOL)shouldAutorotate {
+    return YES;
+}
+
+- (NSUInteger)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskAll;
+}
+
 #pragma mark - Initialization
 
 
